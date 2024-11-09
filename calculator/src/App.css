@@ -1,23 +1,73 @@
+/* Reset basic styles */
 * {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-input,
-button {
-  font-size: 20px;
-  padding: 10px;
-  border-radius: 5px;
+
+/* App container styling */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f4f4f9;
+  color: #333;
 }
-input {
-  display: block;
+
+/* Title styling */
+h1 {
+  font-size: 2.5rem;
+  color: #333;
   margin-bottom: 20px;
 }
-button {
-  border: 1px solid gray;
-  background: whitesmoke;
-  margin-right: 5px;
+
+/* Result display styling */
+p {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4A90E2;
+  margin-bottom: 15px;
 }
+
+/* Input field styling */
+input {
+  width: 100%;
+  max-width: 300px;
+  font-size: 1.2rem;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Button styling */
+button {
+  font-size: 1.1rem;
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  background: #4A90E2;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #357ABD;
+}
+
+/* Reset buttons with unique colors */
 button:nth-last-child(2),
 button:nth-last-child(1) {
-  background: tomato;
-  color: white;
+  background-color: #FF6B6B;
+}
+
+button:nth-last-child(2):hover,
+button:nth-last-child(1):hover {
+  background-color: #E24C4C;
 }
