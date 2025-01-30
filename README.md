@@ -52,4 +52,4 @@
     <p>The Calculator App is a practical tool that combines functionality with a sleek interface. It effectively demonstrates React development fundamentals, making it a valuable addition to any developer's portfolio.</p>
 
 
-<h2>Developed by: Yash Anand </h2>
+<h2>Developed by: Yash Anand</h2>
